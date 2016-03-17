@@ -1,0 +1,12 @@
+
+<suite name="DCHS">
+ <listeners>
+		<listener class-name="com.listener.TestListener" />
+	</listeners>
+	<test name="CORE24">
+		<classes>
+			
+			<class name="com.TestSuite.ChildlessAdult_IncomeUnderMedicaid_HavingMEC"/>
+		</classes>
+	</test>
+</suite>

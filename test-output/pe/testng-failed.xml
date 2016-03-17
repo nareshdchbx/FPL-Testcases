@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [pe]">
+  <test name="rep(failed)">
+    <classes>
+      <class name="com.TestSuite.BfGfVtChildren_GfHavingMEC">
+        <methods>
+          <include name="bsateup"/>
+          <include name="testcase1" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.TestSuite.BfGfVtChildren_GfHavingMEC -->
+      <class name="com.TestSuite.SingleMemApp">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="testcase1" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+          <include name="bsateup"/>
+        </methods>
+      </class> <!-- com.TestSuite.SingleMemApp -->
+    </classes>
+  </test> <!-- rep(failed) -->
+</suite> <!-- Failed suite [pe] -->
